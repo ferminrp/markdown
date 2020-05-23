@@ -11,7 +11,7 @@ const Index = ({ posts, title, description, ...props }) => {
 
         <p className="description">
           Estas son algunas de mis notas, hechas publicas. Podes contactarme en {' '}
-          <a href="https://ferminrp.com">ferminrp.com</a>.
+          <a href="https://ferminrp.com">ferminrp.com</a>
         </p>
         <main>
           <PostList posts={posts} />
