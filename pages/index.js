@@ -7,7 +7,7 @@ const Index = ({ posts, title, description, ...props }) => {
   return (
     <>
       <Layout pageTitle={title} description={description}>
-        <h1 className="title">Fermin's Public Markdown Notes!</h1>
+        <h1 className="title">Fermin's Public Markdown Notes</h1>
 
         <p className="description">
           Estas son algunas de mis notas, hechas publicas. Podes contactarme en {' '}
