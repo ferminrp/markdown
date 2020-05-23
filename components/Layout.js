@@ -65,7 +65,10 @@ export default function Layout({ children, pageTitle, description, ...props }) {
         <div className="content">{children}</div>
       </section>
       <footer>
-        Written with ❤️ by <Link href="https://ferminrp.com"><a>ferminrp</a></Link>
+        Written with ❤️ by
+        <Link href="https://ferminrp.com">
+          <a>About Me</a>
+        </Link>
       </footer>
     </>
   )
