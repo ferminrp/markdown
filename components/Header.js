@@ -6,10 +6,10 @@ export default function Header() {
       <header className="header">
         <nav className="nav" role="navigation" aria-label="main navigation">
           <Link href="/">
-            <a>Demo Blog</a>
+            <a>All Notes</a>
           </Link>
-          <Link href="/about">
-            <a>About</a>
+          <Link href="https://ferminrp.com">
+            <a>About Me</a>
           </Link>
         </nav>
       </header>

@@ -65,7 +65,7 @@ export default function Layout({ children, pageTitle, description, ...props }) {
         <div className="content">{children}</div>
       </section>
       <footer>
-        Built with <img src="/netliheart.svg" alt="Netlify Heart" /> for you
+        Written with ❤️ by <a href="https://ferminrp.com/"></a>
       </footer>
     </>
   )
